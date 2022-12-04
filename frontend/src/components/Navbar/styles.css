@@ -1,5 +1,5 @@
 .main-nav {
-  padding-left: 20px;
+  padding-left: 20px !important;
   min-height: 70px;
 }
 
@@ -13,13 +13,21 @@
 
 .main-menu {
   display: flex;
+  width: 550px;
   font-size: 18px;
-  width: 243px;
+  flex-grow: 2;
   justify-content:space-around;
+  
 }
 
 .main-menu a {
   font-style: normal;
+  color: #00285f;
+
+}
+
+.main-menu a.active {
+  font-weight: 700;
   color: #00285f;
 }
 
@@ -27,7 +35,4 @@
   color: #00285f;
 }
 
-.main-menu a.active {
-  color: #00285f;
-  font-weight: bold;
-}
+
