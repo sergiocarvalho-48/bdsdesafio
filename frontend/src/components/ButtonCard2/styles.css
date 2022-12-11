@@ -1,0 +1,42 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container button {
+  padding: 10px 90px 10px 90px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.btn h6 {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+    .btn-container button {
+        padding: 10px 70px 10px 70px;
+      }
+}
+
+@media (min-width: 768px) {
+    .btn-container button {
+        padding: 10px 115px 10px 115px;
+      }
+}
+
+@media (min-width: 992px) {
+    .btn-container button {
+        padding: 10px 95px 10px 95px;
+      }
+}
+
+@media (min-width: 1280px) {
+    .btn-container button {
+        padding: 10px 125px 10px 125px;
+      }
+}
+
+

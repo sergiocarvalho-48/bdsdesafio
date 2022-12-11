@@ -15,12 +15,12 @@
   display: flex;
   width: 550px;
   font-size: 18px;
-  flex-grow: 2;
-  justify-content:space-around;
+  justify-content:space-evenly;
   
 }
 
 .main-menu a {
+
   font-style: normal;
   color: #00285f;
 
@@ -34,5 +34,12 @@
 .main-menu a:hover {
   color: #00285f;
 }
+
+@media (min-width: 1280px) {
+  .main-nav {
+    padding-left: 150px !important;
+  }
+}
+
 
 

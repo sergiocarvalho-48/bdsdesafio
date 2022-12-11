@@ -1,12 +1,15 @@
-import Home from 'pages/Home';
+//import Home from 'pages/Home';
 import './assets/styles/custom.scss';
 import './App.css';
+import Routes from 'Routes';
 
 
 const App = () => {
   return (
-    <Home />
+    <>
+      <Routes />
+    </>
   );
-}
+};
 
 export default App;
